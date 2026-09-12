@@ -1,0 +1,5 @@
+Following resources are marked to be skipped:
+
+- /subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026/blobServices/default
+- /subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026/fileServices/default
+- /subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026/tableServices/default

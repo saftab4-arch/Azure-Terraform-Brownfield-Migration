@@ -1,0 +1,142 @@
+{
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Compute/virtualMachines/brownfield-app-vm": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Compute/virtualMachines/brownfield-app-vm",
+		"resource_type": "azurerm_linux_virtual_machine",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Compute/virtualMachines/brownfield-db-vm": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Compute/virtualMachines/brownfield-db-vm",
+		"resource_type": "azurerm_linux_virtual_machine",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Compute/virtualMachines/brownfield-web-vm": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Compute/virtualMachines/brownfield-web-vm",
+		"resource_type": "azurerm_linux_virtual_machine",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkInterfaces/brownfield-app-vm704": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkInterfaces/brownfield-app-vm704",
+		"resource_type": "azurerm_network_interface",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkInterfaces/brownfield-db-vm330": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkInterfaces/brownfield-db-vm330",
+		"resource_type": "azurerm_network_interface",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkInterfaces/brownfield-web-vm596": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkInterfaces/brownfield-web-vm596",
+		"resource_type": "azurerm_network_interface",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/app-nsg": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/app-nsg",
+		"resource_type": "azurerm_network_security_group",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/app-nsg/securityRules/allow-web-to-app": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/app-nsg/securityRules/allow-web-to-app",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/db-nsg": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/db-nsg",
+		"resource_type": "azurerm_network_security_group",
+		"resource_name": "res-9"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/db-nsg/securityRules/allow-app-to-db": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/db-nsg/securityRules/allow-app-to-db",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-10"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/web-nsg": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/web-nsg",
+		"resource_type": "azurerm_network_security_group",
+		"resource_name": "res-11"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/web-nsg/securityRules/web-nsg-inbound": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/networkSecurityGroups/web-nsg/securityRules/web-nsg-inbound",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-12"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/publicIPAddresses/brownfield-web-vm-ip": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/publicIPAddresses/brownfield-web-vm-ip",
+		"resource_type": "azurerm_public_ip",
+		"resource_name": "res-13"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/routeTables/brownfield-app-rt": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/routeTables/brownfield-app-rt",
+		"resource_type": "azurerm_route_table",
+		"resource_name": "res-14"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/routeTables/brownfield-app-rt/routes/Route-to-web": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/routeTables/brownfield-app-rt/routes/Route-to-web",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-15"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/routeTables/brownfield-app-rt/routes/route-to-db": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/routeTables/brownfield-app-rt/routes/route-to-db",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-16"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet",
+		"resource_type": "azurerm_virtual_network",
+		"resource_name": "res-17"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/app-subnet": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/app-subnet",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-18"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/app-subnet/networkSecurityGroups/L3N1YnNjcmlwdGlvbnMvMjIxM2U4YjEtZGJjNy00ZDU0LThhZmYtYjVlMzE1ZGY1ZTViL3Jlc291cmNlR3JvdXBzLzEtYWIzZWE0MjAtcGxheWdyb3VuZC1zYW5kYm94L3Byb3ZpZGVycy9NaWNyb3NvZnQuTmV0d29yay9uZXR3b3JrU2VjdXJpdHlHcm91cHMvYXBwLW5zZw==": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/app-subnet",
+		"resource_type": "azurerm_subnet_network_security_group_association",
+		"resource_name": "res-19"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/app-subnet/routeTables/L3N1YnNjcmlwdGlvbnMvMjIxM2U4YjEtZGJjNy00ZDU0LThhZmYtYjVlMzE1ZGY1ZTViL3Jlc291cmNlR3JvdXBzLzEtYWIzZWE0MjAtcGxheWdyb3VuZC1zYW5kYm94L3Byb3ZpZGVycy9NaWNyb3NvZnQuTmV0d29yay9yb3V0ZVRhYmxlcy9icm93bmZpZWxkLWFwcC1ydA==": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/app-subnet",
+		"resource_type": "azurerm_subnet_route_table_association",
+		"resource_name": "res-20"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/db-subnet": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/db-subnet",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-21"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/db-subnet/networkSecurityGroups/L3N1YnNjcmlwdGlvbnMvMjIxM2U4YjEtZGJjNy00ZDU0LThhZmYtYjVlMzE1ZGY1ZTViL3Jlc291cmNlR3JvdXBzLzEtYWIzZWE0MjAtcGxheWdyb3VuZC1zYW5kYm94L3Byb3ZpZGVycy9NaWNyb3NvZnQuTmV0d29yay9uZXR3b3JrU2VjdXJpdHlHcm91cHMvZGItbnNn": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/db-subnet",
+		"resource_type": "azurerm_subnet_network_security_group_association",
+		"resource_name": "res-22"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/web-subnet": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/web-subnet",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-23"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/web-subnet/networkSecurityGroups/L3N1YnNjcmlwdGlvbnMvMjIxM2U4YjEtZGJjNy00ZDU0LThhZmYtYjVlMzE1ZGY1ZTViL3Jlc291cmNlR3JvdXBzLzEtYWIzZWE0MjAtcGxheWdyb3VuZC1zYW5kYm94L3Byb3ZpZGVycy9NaWNyb3NvZnQuTmV0d29yay9uZXR3b3JrU2VjdXJpdHlHcm91cHMvd2ViLW5zZw==": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Network/virtualNetworks/brownfield-vnet/subnets/web-subnet",
+		"resource_type": "azurerm_subnet_network_security_group_association",
+		"resource_name": "res-24"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026",
+		"resource_type": "azurerm_storage_account",
+		"resource_name": "res-25"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026/blobServices/default/containers/tfstate": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026/blobServices/default/containers/tfstate",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-27"
+	},
+	"/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026/queueServices/default": {
+		"resource_id": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-ab3ea420-playground-sandbox/providers/Microsoft.Storage/storageAccounts/tfstatebrownfield2026",
+		"resource_type": "azurerm_storage_account_queue_properties",
+		"resource_name": "res-29"
+	}
+}
